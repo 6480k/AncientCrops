@@ -1,0 +1,27 @@
+{
+	"Name": "Cornucopia - Ancient Crops",
+	"Author": "Cornucopia",
+	"Description": "Adds additional ancient crops for Stardew Valley 1.6 Content Patcher",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"UniqueID": "Cornucopia.AncientCrops",
+	"UpdateKeys": [
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "furyx639.CustomBush",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "mistyspring.ItemExtensions",
+			"IsRequired": false
+		}
+	]
+}

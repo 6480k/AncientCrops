@@ -1,0 +1,57 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "Cornucopia_AncientCoffeeBean": {
+                    "Seasons": [ "spring", "summer", "fall" ],
+                    "DaysInPhase": [4, 6, 8, 14, 4 ],
+                    "HarvestItemId": "Cornucopia_AncientCoffeeBean",
+                    "Texture": "Cornucopia.AncientCrops/Crops",
+                    "SpriteIndex": 8,
+                    "RegrowDays": 4
+                },
+                "Cornucopia_AncientFernSeeds": {
+                    "Seasons":[ "spring", "summer", "fall" ],
+                    "DaysInPhase":[ 5, 7, 8, 10, 4 ],
+                    "HarvestItemId": "Cornucopia_AncientFern",
+                    "Texture": "Cornucopia.AncientCrops/Crops",
+                    "SpriteIndex": 24,
+                    "RegrowDays": 3
+                },
+                "Cornucopia_AncientFlowerSeeds": {
+                    "Seasons": [ "spring", "summer", "fall" ],
+                    "DaysInPhase":[ 1, 2, 2, 2, 1 ],
+                    "HarvestItemId": "Cornucopia_AncientFlower",
+                    "Texture": "Cornucopia.AncientCrops/Crops",
+                    "SpriteIndex": 40
+                },
+                "Cornucopia_AncientNutSeeds": {
+                    "Seasons":[ "spring", "summer", "fall" ],
+                    "DaysInPhase":[ 8, 8, 8, 8, 14 ],
+                    "HarvestItemId": "Cornucopia_AncientNut",
+                    "Texture": "Cornucopia.AncientCrops/Crops",
+                    "SpriteIndex": 56,
+                    "RegrowDays": 14
+                },
+                "Cornucopia_AncientOliveSeeds": {
+                    "Seasons":[ "spring", "summer", "fall" ],
+                    "DaysInPhase":[ 6, 10, 12, 11, 7 ],
+                    "HarvestItemId": "Cornucopia_AncientOlive",
+                    "Texture": "Cornucopia.AncientCrops/Crops",
+                    "SpriteIndex": 72,
+                    "RegrowDays": 7
+                },
+                "Cornucopia_AncientTuberSeeds": {
+                    "Seasons":[ "spring", "summer", "fall" ],
+                    "DaysInPhase":[ 5, 8, 8, 6 ],
+                    "HarvestItemId": "Cornucopia_AncientTuber",
+                    "Texture": "Cornucopia.AncientCrops/Crops",
+                    "SpriteIndex": 88
+                }
+                
+            }
+        }
+    ]
+}

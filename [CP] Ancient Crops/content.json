@@ -1,0 +1,18 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        //set mail flags
+        // add item + crop images
+        {
+            "Action": "Load",
+            "Target": "Cornucopia.AncientCrops/Crops, Cornucopia.AncientCrops/Objects, Cornucopia.AncientCrops/Objects-Artisan",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" //assets/Crops.png, assets/Objects.png, assets/Objects-artisan.png
+        },
+
+        // add subfiles
+        {
+            "Action": "Include",
+            "FromFile": "data/crops.json, data/objects.json, data/letters.json"
+        }
+    ]
+}
