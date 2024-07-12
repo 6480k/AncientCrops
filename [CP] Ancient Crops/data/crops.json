@@ -9,7 +9,7 @@
                     "DaysInPhase": [4, 6, 8, 14, 4 ],
                     "HarvestItemId": "Cornucopia_AncientCoffeeBean",
                     "Texture": "Cornucopia.AncientCrops/Crops",
-                    "SpriteIndex": 8,
+                    "SpriteIndex": 0,
                     "RegrowDays": 4
                 },
                 "Cornucopia_AncientFernSeeds": {
@@ -17,7 +17,7 @@
                     "DaysInPhase":[ 5, 7, 8, 10, 4 ],
                     "HarvestItemId": "Cornucopia_AncientFern",
                     "Texture": "Cornucopia.AncientCrops/Crops",
-                    "SpriteIndex": 24,
+                    "SpriteIndex": 1,
                     "RegrowDays": 3
                 },
                 "Cornucopia_AncientFlowerSeeds": {
@@ -25,14 +25,14 @@
                     "DaysInPhase":[ 1, 2, 2, 2, 1 ],
                     "HarvestItemId": "Cornucopia_AncientFlower",
                     "Texture": "Cornucopia.AncientCrops/Crops",
-                    "SpriteIndex": 40
+                    "SpriteIndex": 2
                 },
                 "Cornucopia_AncientNutSeeds": {
                     "Seasons":[ "spring", "summer", "fall" ],
                     "DaysInPhase":[ 8, 8, 8, 8, 14 ],
                     "HarvestItemId": "Cornucopia_AncientNut",
                     "Texture": "Cornucopia.AncientCrops/Crops",
-                    "SpriteIndex": 56,
+                    "SpriteIndex": 3,
                     "RegrowDays": 14
                 },
                 "Cornucopia_AncientOliveSeeds": {
@@ -40,7 +40,7 @@
                     "DaysInPhase":[ 6, 10, 12, 11, 7 ],
                     "HarvestItemId": "Cornucopia_AncientOlive",
                     "Texture": "Cornucopia.AncientCrops/Crops",
-                    "SpriteIndex": 72,
+                    "SpriteIndex": 4,
                     "RegrowDays": 7
                 },
                 "Cornucopia_AncientTuberSeeds": {
@@ -48,7 +48,7 @@
                     "DaysInPhase":[ 5, 8, 8, 6 ],
                     "HarvestItemId": "Cornucopia_AncientTuber",
                     "Texture": "Cornucopia.AncientCrops/Crops",
-                    "SpriteIndex": 88
+                    "SpriteIndex": 5
                 }
                 
             }
