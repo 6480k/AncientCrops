@@ -5,7 +5,7 @@
         // add item + crop images
         {
             "Action": "Load",
-            "Target": "Cornucopia.AncientCrops/Crops, Cornucopia.AncientCrops/Objects, Cornucopia.AncientCrops/Objects-Artisan",
+            "Target": "TrentXV.AncientCrops/Crops, TrentXV.AncientCrops/Objects, TrentXV.AncientCrops/Objects-Artisan",
             "FromFile": "assets/{{TargetWithoutPath}}.png" //assets/Crops.png, assets/Objects.png, assets/Objects-artisan.png
         },
 

@@ -4,14 +4,14 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "Cornucopia_AncientCoffeeBean": {
-                    "Name": "Cornucopia_AncientCoffeeBean",
+                "AncientCrops_AncientCoffeeBean": {
+                    "Name": "AncientCrops_AncientCoffeeBean",
                     "Type": "Seed",
                     "Category": -74,
                     "SpriteIndex": 0,
                     "DisplayName": "{{i18n:AncientCoffeeBean_name}}",
                     "Description": "{{i18n:AncientCoffeeBean_description}}",
-                    "Texture": "Cornucopia.AncientCrops/Objects",
+                    "Texture": "TrentXV.AncientCrops/Objects",
                     "Price": 250,
                     "Edibility": -300,
                     "ContextTags": [
@@ -19,20 +19,20 @@
                         "season_spring",
                         "season_summer",
                         "season_fall",
-                        "cornucopia_crop_produce",
-                        "modid_cornucopia.ancientcrops",
+                        "ancientcrops_crop_produce",
+                        "modid_TrentXV.AncientCrops",
                         "ancient_coffeebean_item",
                         "coffeebean_item"
                     ]
                 },
-                "Cornucopia_AncientFern": {
-                    "Name": "Cornucopia_AncientFern",
+                "AncientCrops_AncientFern": {
+                    "Name": "AncientCrops_AncientFern",
                     "Type":"Flower",
                     "Category": -80,
                     "SpriteIndex": 1,
                     "DisplayName": "{{i18n:AncientFern_name}}",
                     "Description": "{{i18n:AncientFern_description}}",
-                    "Texture": "Cornucopia.AncientCrops/Objects",
+                    "Texture": "TrentXV.AncientCrops/Objects",
                     "Price": 400,
                     "Edibility": 32,
                     "ContextTags": [
@@ -41,19 +41,19 @@
                         "season_spring",
                         "season_summer",
                         "season_fall",
-                        "cornucopia_crop_produce",
-                        "modid_cornucopia.ancientcrops",
+                        "ancientcrops_crop_produce",
+                        "modid_TrentXV.AncientCrops",
                         "ancient_fern_item"
                     ]
                 },
-                "Cornucopia_AncientFlower": {
-                    "Name": "Cornucopia_AncientFlower",
+                "AncientCrops_AncientFlower": {
+                    "Name": "AncientCrops_AncientFlower",
                     "Type": "Flower",
                     "Category": -80,
                     "SpriteIndex": 3,
                     "DisplayName": "{{i18n:AncientFlower_name}}",
                     "Description": "{{i18n:AncientFlower_description}}",
-                    "Texture": "Cornucopia.AncientCrops/Objects",
+                    "Texture": "TrentXV.AncientCrops/Objects",
                     "Price": 500,
                     "Edibility": 5,
                     "ContextTags": [
@@ -61,19 +61,19 @@
                         "season_spring",
                         "season_summer",
                         "season_fall",
-                        "cornucopia_crop_produce",
-                        "modid_cornucopia.ancientcrops",
+                        "ancientcrops_crop_produce",
+                        "modid_TrentXV.AncientCrops",
                         "ancient_flower_item"
                     ]
                 },
-                "Cornucopia_AncientNut": {
-                    "Name": "Cornucopia_AncientNut",
+                "AncientCrops_AncientNut": {
+                    "Name": "AncientCrops_AncientNut",
                     "Type": "Vegetable",
                     "Category": -75,
                     "SpriteIndex": 5,
                     "DisplayName": "{{i18n:AncientNut_name}}",
                     "Description": "{{i18n:AncientNut_description}}",
-                    "Texture": "Cornucopia.AncientCrops/Objects",
+                    "Texture": "TrentXV.AncientCrops/Objects",
                     "Price": 250,
                     "Edibility": -300,
                     "ContextTags":[
@@ -82,19 +82,19 @@
                         "season_spring",
                         "season_summer",
                         "season_fall",
-                        "cornucopia_crop_produce",
-                        "modid_cornucopia.ancientcrops",
+                        "ancientcrops_crop_produce",
+                        "modid_TrentXV.AncientCrops",
                         "ancient_nut_item"
                     ]
                 },
-                "Cornucopia_AncientOlive": {
-                    "Name": "Cornucopia_AncientOlive",
+                "AncientCrops_AncientOlive": {
+                    "Name": "AncientCrops_AncientOlive",
                     "Type": "Vegetable",
                     "Category": -75,
                     "SpriteIndex": 7,
                     "DisplayName": "{{i18n:AncientOlive_name}}",
                     "Description": "{{i18n:AncientOlive_description}}",
-                    "Texture": "Cornucopia.AncientCrops/Objects",
+                    "Texture": "TrentXV.AncientCrops/Objects",
                     "Price": 400,
                     "Edibility": 28,
                     "ContextTags":[
@@ -102,29 +102,27 @@
                         "season_spring",
                         "season_summer",
                         "season_fall",
-                        "cornucopia_crop_produce",
-                        "modid_cornucopia.ancientcrops",
+                        "ancientcrops_crop_produce",
+                        "modid_TrentXV.AncientCrops",
                         "olive_item",
                         "ancient_olive_item"
                     ]
                 },
-                "Cornucopia_AncientTuber": {
-                    "Name": "Cornucopia_AncientTuber",
+                "AncientCrops_AncientTuber": {
+                    "Name": "AncientCrops_AncientTuber",
                     "Type": "Vegetable",
                     "Category": -75,
                     "SpriteIndex": 9,
                     "DisplayName":"{{i18n:AncientTuber_name}}",
                     "Description":"{{i18n:AncientTuber_description}}",
-                    "Texture":"Cornucopia.AncientCrops/Objects",
-                    "Price": 1500,
+                    "Texture":"TrentXV.AncientCrops/Objects",
+                    "Price": 750,
                     "Edibility": 38,
                     "ContextTags":[
                         "color_blue",
-                        "season_spring",
-                        "season_summer",
-                        "season_fall",
-                        "cornucopia_crop_produce",
-                        "modid_cornucopia.ancientcrops",
+                        "season_winter",
+                        "ancientcrops_crop_produce",
+                        "modid_TrentXV.AncientCrops",
                         "tuber_item",
                         "ancient_tuber_item"
                     ]
@@ -135,89 +133,87 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "Cornucopia_AncientFernSeeds": {
-                    "Name": "Cornucopia_AncientFernSeeds",
+                "AncientCrops_AncientFernSeeds": {
+                    "Name": "AncientCrops_AncientFernSeeds",
                     "Type": "Seed",
                     "Category": -74,
                     "SpriteIndex": 2,
                     "DisplayName": "{{i18n:AncientFernSeeds_name}}",
                     "Description": "{{i18n:AncientFernSeeds_description}}",
-                    "Texture": "Cornucopia.AncientCrops/Objects",
+                    "Texture": "TrentXV.AncientCrops/Objects",
                     "Price": 200,
                     "ContextTags":[
-                        "cornucopia_crop_seed",
-                        "cornucopia_season_spring",
-                        "cornucopia_season_summer",
-                        "cornucopia_season_fall",
-                        "modid_cornucopia.ancientcrops"
+                        "ancientcrops_crop_seed",
+                        "ancientcrops_season_spring",
+                        "ancientcrops_season_summer",
+                        "ancientcrops_season_fall",
+                        "modid_TrentXV.AncientCrops"
                     ]
                 },
-                "Cornucopia_AncientFlowerSeeds": {
-                    "Name": "Cornucopia_AncientFlowerSeeds",
+                "AncientCrops_AncientFlowerSeeds": {
+                    "Name": "AncientCrops_AncientFlowerSeeds",
                     "Type": "Seed",
                     "Category": -74,
                     "SpriteIndex": 4,
                     "DisplayName": "{{i18n:AncientFlowerSeeds_name}}",
                     "Description": "{{i18n:AncientFlowerSeeds_description}}",
-                    "Texture": "Cornucopia.AncientCrops/Objects",
+                    "Texture": "TrentXV.AncientCrops/Objects",
                     "Price": 150,
                     "ContextTags":[
-                        "cornucopia_crop_seed",
-                        "cornucopia_season_spring",
-                        "cornucopia_season_summer",
-                        "cornucopia_season_fall",
-                        "modid_cornucopia.ancientcrops"
+                        "ancientcrops_crop_seed",
+                        "ancientcrops_season_spring",
+                        "ancientcrops_season_summer",
+                        "ancientcrops_season_fall",
+                        "modid_TrentXV.AncientCrops"
                     ]
                 },
-                "Cornucopia_AncientNutSeeds": {
-                    "Name": "Cornucopia_AncientNutSeeds",
+                "AncientCrops_AncientNutSeeds": {
+                    "Name": "AncientCrops_AncientNutSeeds",
                     "Type": "Seed",
                     "Category": -74,
                     "SpriteIndex": 6,
                     "DisplayName": "{{i18n:AncientNutSeeds_name}}",
                     "Description": "{{i18n:AncientNutSeeds_description}}",
-                    "Texture": "Cornucopia.AncientCrops/Objects",
+                    "Texture": "TrentXV.AncientCrops/Objects",
                     "Price": 125,
                     "ContextTags":[
-                        "cornucopia_crop_seed",
-                        "cornucopia_season_spring",
-                        "cornucopia_season_summer",
-                        "cornucopia_season_fall",
-                        "modid_cornucopia.ancientcrops"
+                        "ancientcrops_crop_seed",
+                        "ancientcrops_season_spring",
+                        "ancientcrops_season_summer",
+                        "ancientcrops_season_fall",
+                        "modid_TrentXV.AncientCrops"
                     ]
                 },
-                "Cornucopia_AncientOliveSeeds": {
-                    "Name": "Cornucopia_AncientOliveSeeds",
+                "AncientCrops_AncientOliveSeeds": {
+                    "Name": "AncientCrops_AncientOliveSeeds",
                     "Type": "Seed",
                     "Category": -74,
                     "SpriteIndex": 8,
                     "DisplayName": "{{i18n:AncientOliveSeeds_name}}",
                     "Description": "{{i18n:AncientOliveSeeds_description}}",
-                    "Texture": "Cornucopia.AncientCrops/Objects",
+                    "Texture": "TrentXV.AncientCrops/Objects",
                     "Price": 150,
                     "ContextTags":[
-                        "cornucopia_crop_seed",
-                        "cornucopia_season_spring",
-                        "cornucopia_season_summer",
-                        "cornucopia_season_fall",
-                        "modid_cornucopia.ancientcrops"
+                        "ancientcrops_crop_seed",
+                        "ancientcrops_season_spring",
+                        "ancientcrops_season_summer",
+                        "ancientcrops_season_fall",
+                        "modid_TrentXV.AncientCrops"
                     ]
                 },
-                "Cornucopia_AncientTuberSeeds": {
-                    "Name": "Cornucopia_AncientTuberSeeds",
+                "AncientCrops_AncientTuberSeeds": {
+                    "Name": "AncientCrops_AncientTuberSeeds",
                     "Type": "Seed",
                     "Category": -74,
                     "SpriteIndex": 10,
                     "DisplayName": "{{i18n:AncientTuberSeeds_name}}",
                     "Description": "{{i18n:AncientTuberSeeds_description}}",
-                    "Texture": "Cornucopia.AncientCrops/Objects",
-                    "Price": 750,
+                    "Texture": "TrentXV.AncientCrops/Objects",
+                    "Price": 350,
                     "ContextTags":[
-                        "cornucopia_crop_seed",
-                        "cornucopia_season_spring",
-                        "cornucopia_season_summer",
-                        "cornucopia_season_fall",
-                        "modid_cornucopia.ancientcrops"
+                        "ancientcrops_crop_seed",
+                        "ancientcrops_season_winter",
+                        "modid_TrentXV.AncientCrops"
                     ]
                 }
             }
@@ -227,14 +223,14 @@
             "Action": "EditData",
 			"Target": "Data/Objects",
 			"Entries": {
-				"Cornucopia_AncientCoffee": {
-					"Name": "Cornucopia_AncientCoffee",
+				"AncientCrops_AncientCoffee": {
+					"Name": "AncientCrops_AncientCoffee",
 					"Type": "Basic",
 					"Category": -26,
 					"SpriteIndex": 0,
 					"DisplayName": "{{i18n:AncientCoffee_name}}",
 					"Description": "{{i18n:AncientCoffee_description}}",
-					"Texture": "Cornucopia.AncientCrops/Objects-Artisan",
+					"Texture": "TrentXV.AncientCrops/Objects-Artisan",
 					"Price": 1250,
 					"Edibility": 5,
 					"IsDrink": true,
@@ -244,90 +240,90 @@
                     },
 					"ContextTags": [
 						"color_brown",
-						"cornucopia_artisangood",
-						"cornucopia_rarity_rare",
+						"ancientcrops_artisangood",
+						"ancientcrops_rarity_rare",
 						"ancient_coffee_item",
 						"coffee_item",
-                        "modid_cornucopia.ancientcrops"
+                        "modid_TrentXV.AncientCrops"
 					]
 				},
-                "Cornucopia_AncientFernTea": {
-					"Name": "Cornucopia_AncientFernTea",
+                "AncientCrops_AncientFernTea": {
+					"Name": "AncientCrops_AncientFernTea",
 					"Type": "Basic",
 					"Category": -26,
 					"SpriteIndex": 1,
 					"DisplayName": "{{i18n:AncientFernTea_name}}",
 					"Description": "{{i18n:AncientFernTea_description}}",
-					"Texture": "Cornucopia.AncientCrops/Objects-Artisan",
+					"Texture": "TrentXV.AncientCrops/Objects-Artisan",
 					"Price": 700,
 					"Edibility": 7,
 					"IsDrink": true,
                     // insert Tea Buff
 					"ContextTags": [
 						"color_gold",
-						"cornucopia_artisangood",
-						"cornucopia_rarity_rare",
+						"ancientcrops_artisangood",
+						"ancientcrops_rarity_rare",
 						"ancient_fern_tea_item",
 						"tea_item",
-                        "modid_cornucopia.ancientcrops"
+                        "modid_TrentXV.AncientCrops"
 					]
 				},
-                "Cornucopia_AncientNutButter": {
-					"Name": "Cornucopia_AncientNutButter",
+                "AncientCrops_AncientNutButter": {
+					"Name": "AncientCrops_AncientNutButter",
 					"Type": "Basic",
 					"Category": -26,
 					"SpriteIndex": 2,
 					"DisplayName": "{{i18n:AncientNutButter_name}}",
 					"Description": "{{i18n:AncientNutButter_description}}",
-					"Texture": "Cornucopia.AncientCrops/Objects-Artisan",
+					"Texture": "TrentXV.AncientCrops/Objects-Artisan",
 					"Price": 875,
 					"Edibility": 52,
 					"ContextTags": [
 						"color_white",
-						"cornucopia_artisangood",
-						"cornucopia_rarity_rare",
+						"ancientcrops_artisangood",
+						"ancientcrops_rarity_rare",
 						"ancient_nut_butter_item",
 						"butter_item",
-                        "modid_cornucopia.ancientcrops"
+                        "modid_TrentXV.AncientCrops"
 					]
 				},
-                "Cornucopia_AncientNutMilk": {
-					"Name": "Cornucopia_AncientNutMilk",
+                "AncientCrops_AncientNutMilk": {
+					"Name": "AncientCrops_AncientNutMilk",
 					"Type": "Basic",
 					"Category": -26,
 					"SpriteIndex": 3,
 					"DisplayName": "{{i18n:AncientNutMilk_name}}",
 					"Description": "{{i18n:AncientNutMilk_description}}",
-					"Texture": "Cornucopia.AncientCrops/Objects-Artisan",
+					"Texture": "TrentXV.AncientCrops/Objects-Artisan",
 					"Price": 800,
 					"Edibility": 36,
                     "IsDrink": true,
 					"ContextTags": [
 						"color_white",
-						"cornucopia_artisangood",
-						"cornucopia_rarity_rare",
+						"ancientcrops_artisangood",
+						"ancientcrops_rarity_rare",
 						"ancient_nut_milk_item",
 						"milk_item",
-                        "modid_cornucopia.ancientcrops"
+                        "modid_TrentXV.AncientCrops"
 					]
 				},
-                "Cornucopia_AncientOliveOil": {
-					"Name": "Cornucopia_AncientOliveOil",
+                "AncientCrops_AncientOliveOil": {
+					"Name": "AncientCrops_AncientOliveOil",
 					"Type": "Basic",
 					"Category": -26,
 					"SpriteIndex": 4,
 					"DisplayName": "{{i18n:AncientOliveOil_name}}",
 					"Description": "{{i18n:AncientOliveOil_description}}",
-					"Texture": "Cornucopia.AncientCrops/Objects-Artisan",
+					"Texture": "TrentXV.AncientCrops/Objects-Artisan",
 					"Price": 1800,
 					"Edibility": -300,
 					"ContextTags": [
 						"color_brown",
-						"cornucopia_artisangood",
-						"cornucopia_rarity_rare",
+						"ancientcrops_artisangood",
+						"ancientcrops_rarity_rare",
 						"ancient_olive_oil_item",
 						"oil_item",
-                        "modid_cornucopia.ancientcrops"
+                        "modid_TrentXV.AncientCrops"
 					]
 				}
             }

@@ -4,14 +4,14 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "Cornucopia_GuntherAncientFlower": "{{i18n:Mail_GuntherAncientFlower}}",
-                "Cornucopia_GuntherAncientTuber": "{{i18n:Mail_GuntherAncientTuber}}",
-                "Cornucopia_GuntherAncientNut": "{{i18n:Mail_GuntherAncientNut}}",
-                "Cornucopia_GuntherAncientFern": "{{i18n:Mail_GuntherAncientFern}}",
-                "Cornucopia_QiSkillChallenge": "{{i18n:Mail_QiSkillChallenge}}",
-                "Cornucopia_QiAncientCoffee": "{{i18n:Mail_QiAncientCoffee}}",
-                "Cornucopia_AncientOlive": "{{i18n:Mail_AncientOlive}}",
-                "Cornucopia_FionasPrize": "{{i18n:Mail_FionasPrize}}",
+                "AncientCrops_GuntherAncientFlower": "{{i18n:Mail_GuntherAncientFlower}}",
+                "AncientCrops_GuntherAncientTuber": "{{i18n:Mail_GuntherAncientTuber}}",
+                "AncientCrops_GuntherAncientNut": "{{i18n:Mail_GuntherAncientNut}}",
+                "AncientCrops_GuntherAncientFern": "{{i18n:Mail_GuntherAncientFern}}",
+                "AncientCrops_QiSkillChallenge": "{{i18n:Mail_QiSkillChallenge}}",
+                "AncientCrops_QiAncientCoffee": "{{i18n:Mail_QiAncientCoffee}}",
+                "AncientCrops_AncientOlive": "{{i18n:Mail_AncientOlive}}",
+                "AncientCrops_FionasPrize": "{{i18n:Mail_FionasPrize}}"
             }
         },
         {
@@ -20,7 +20,7 @@
             "Entries":{
 
             }
-        },
+        }
         
     ]
 }
