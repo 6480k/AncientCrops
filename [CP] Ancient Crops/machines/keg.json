@@ -1,0 +1,75 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules"
+			],
+            "Entries": {
+                "AncientCrops_AncientCoffee": {
+                    "Id": "AncientCrops_AncientCoffee",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)AncientCrops_AncientCoffeeBean",
+							"RequiredCount": 5
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)AncientCrops_AncientCoffee"
+						}
+					],
+					"MinutesUntilReady": 120,
+					"InvalidCountMessage": "{{i18n: KegInvalidCount_AncientCoffeeBeans}}"
+                },
+                "AncientCrops_AncientFernTea": {
+                    "Id": "AncientCrops_AncientFernTea",
+                    "Triggers": [
+                        {
+                            "RequiredItemId": "(O)AncientCrops_AncientFern"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "(O)AncientCrops_AncientFernTea"
+                        }
+                    ],
+                    "MinutesUntilReady": 180
+                },
+                "AncientCrops_AncientNutMilk": {
+                    "Id": "AncientCrops_AncientNutMilk",
+                    "Triggers": [
+                        {
+                            "RequiredItemId": "(O)AncientCrops_AncientNut",
+                            "RequiredCount": 2
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "(O)AncientCrops_AncientNutMilk",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+								{
+									"Id": "AncientNutMilk",
+									"Modification": "Multiply",
+									"Amount": 4.5
+								}
+							]
+                        }
+                    ],
+                    "MinutesUntilReady": 2250,
+                    "InvalidCountMessage": "{{i18n: KegInvalidCount_AncientNuts}}"
+                }
+            },
+            "MoveEntries": [
+                {
+                    "Id":"AncientCrops_AncientNutMilk",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

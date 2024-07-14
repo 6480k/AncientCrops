@@ -22,7 +22,8 @@
                         "ancientcrops_crop_produce",
                         "modid_TrentXV.AncientCrops",
                         "ancient_coffeebean_item",
-                        "coffeebean_item"
+                        "coffeebean_item",
+                        "seedmaker_banned"
                     ]
                 },
                 "AncientCrops_AncientFern": {
@@ -70,7 +71,7 @@
                     "Name": "AncientCrops_AncientNut",
                     "Type": "Vegetable",
                     "Category": -75,
-                    "SpriteIndex": 5,
+                    "SpriteIndex": 6,
                     "DisplayName": "{{i18n:AncientNut_name}}",
                     "Description": "{{i18n:AncientNut_description}}",
                     "Texture": "TrentXV.AncientCrops/Objects",
@@ -91,7 +92,7 @@
                     "Name": "AncientCrops_AncientOlive",
                     "Type": "Vegetable",
                     "Category": -75,
-                    "SpriteIndex": 7,
+                    "SpriteIndex": 8,
                     "DisplayName": "{{i18n:AncientOlive_name}}",
                     "Description": "{{i18n:AncientOlive_description}}",
                     "Texture": "TrentXV.AncientCrops/Objects",
@@ -112,7 +113,7 @@
                     "Name": "AncientCrops_AncientTuber",
                     "Type": "Vegetable",
                     "Category": -75,
-                    "SpriteIndex": 9,
+                    "SpriteIndex": 10,
                     "DisplayName":"{{i18n:AncientTuber_name}}",
                     "Description":"{{i18n:AncientTuber_description}}",
                     "Texture":"TrentXV.AncientCrops/Objects",
@@ -154,7 +155,7 @@
                     "Name": "AncientCrops_AncientFlowerSeeds",
                     "Type": "Seed",
                     "Category": -74,
-                    "SpriteIndex": 4,
+                    "SpriteIndex": 5,
                     "DisplayName": "{{i18n:AncientFlowerSeeds_name}}",
                     "Description": "{{i18n:AncientFlowerSeeds_description}}",
                     "Texture": "TrentXV.AncientCrops/Objects",
@@ -171,7 +172,7 @@
                     "Name": "AncientCrops_AncientNutSeeds",
                     "Type": "Seed",
                     "Category": -74,
-                    "SpriteIndex": 6,
+                    "SpriteIndex": 7,
                     "DisplayName": "{{i18n:AncientNutSeeds_name}}",
                     "Description": "{{i18n:AncientNutSeeds_description}}",
                     "Texture": "TrentXV.AncientCrops/Objects",
@@ -188,7 +189,7 @@
                     "Name": "AncientCrops_AncientOliveSeeds",
                     "Type": "Seed",
                     "Category": -74,
-                    "SpriteIndex": 8,
+                    "SpriteIndex": 9,
                     "DisplayName": "{{i18n:AncientOliveSeeds_name}}",
                     "Description": "{{i18n:AncientOliveSeeds_description}}",
                     "Texture": "TrentXV.AncientCrops/Objects",
@@ -205,7 +206,7 @@
                     "Name": "AncientCrops_AncientTuberSeeds",
                     "Type": "Seed",
                     "Category": -74,
-                    "SpriteIndex": 10,
+                    "SpriteIndex": 11,
                     "DisplayName": "{{i18n:AncientTuberSeeds_name}}",
                     "Description": "{{i18n:AncientTuberSeeds_description}}",
                     "Texture": "TrentXV.AncientCrops/Objects",
@@ -234,10 +235,30 @@
 					"Price": 1250,
 					"Edibility": 5,
 					"IsDrink": true,
-                    "Buff": {
-                        "BuffId": 22,
-                        "Duration": 900
-                    },
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 900,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 2,
+                                "Defense": 0,
+                                "Attack": 0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
 					"ContextTags": [
 						"color_brown",
 						"ancientcrops_artisangood",
@@ -258,7 +279,30 @@
 					"Price": 700,
 					"Edibility": 7,
 					"IsDrink": true,
-                    // insert Tea Buff
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 720,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 1,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 40,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
 					"ContextTags": [
 						"color_gold",
 						"ancientcrops_artisangood",

@@ -8,6 +8,8 @@
                     "Seasons": [ "spring", "summer", "fall" ],
                     "DaysInPhase": [4, 6, 8, 14, 4 ],
                     "HarvestItemId": "AncientCrops_AncientCoffeeBean",
+                    "HarvestMinStack": 2,
+                    "HarvestMaxStack": 4,
                     "Texture": "TrentXV.AncientCrops/Crops",
                     "SpriteIndex": 0,
                     "RegrowDays": 4
@@ -25,12 +27,15 @@
                     "DaysInPhase":[ 1, 2, 2, 2, 1 ],
                     "HarvestItemId": "AncientCrops_AncientFlower",
                     "Texture": "TrentXV.AncientCrops/Crops",
-                    "SpriteIndex": 2
+                    "SpriteIndex": 2,
+                    "TintColors": [ "#00ced1", "#ff3030", "#e066ff" ]
                 },
                 "AncientCrops_AncientNutSeeds": {
                     "Seasons":[ "spring", "summer", "fall" ],
                     "DaysInPhase":[ 8, 8, 8, 8, 14 ],
                     "HarvestItemId": "AncientCrops_AncientNut",
+                    "HarvestMinStack": 3,
+                    "HarvestMaxStack": 4,
                     "Texture": "TrentXV.AncientCrops/Crops",
                     "SpriteIndex": 3,
                     "RegrowDays": 14
@@ -39,6 +44,8 @@
                     "Seasons":[ "spring", "summer", "fall" ],
                     "DaysInPhase":[ 6, 10, 12, 11, 7 ],
                     "HarvestItemId": "AncientCrops_AncientOlive",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
                     "Texture": "TrentXV.AncientCrops/Crops",
                     "SpriteIndex": 4,
                     "RegrowDays": 7
@@ -47,6 +54,8 @@
                     "Seasons":[ "winter" ],
                     "DaysInPhase":[ 5, 8, 8, 6 ],
                     "HarvestItemId": "AncientCrops_AncientTuber",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
                     "Texture": "TrentXV.AncientCrops/Crops",
                     "SpriteIndex": 5
                 }

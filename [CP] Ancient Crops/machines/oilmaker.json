@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+			"TargetField": [
+				"(BC)19",
+				"OutputRules"
+			],
+            "Entries": {
+                "AncientCrops_AncientOliveOil": {
+                    "Id": "AncientCrops_AncientOliveOil",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)AncientCrops_AncientOlive",
+							"RequiredCount": 4
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)AncientCrops_AncientOliveOil",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+								{
+									"Id": "AncientOliveOil",
+									"Modification": "Multiply",
+									"Amount": 8.75
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 960,
+					"InvalidCountMessage": "{{i18n: OilmakerInvalidCount_AncientOlives}}"
+                }
+            }
+        }
+    ]
+}

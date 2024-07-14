@@ -1,0 +1,45 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules"
+			],
+            "Entries": {
+                "AncientCrops_AncientNutButter": {
+                    "Id": "AncientCrops_AncientNutButter",
+                    "Triggers": [
+                        {
+                            "RequiredItemId": "(O)AncientCrops_AncientNut",
+                            "RequiredCount": 4
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "(O)AncientCrops_AncientNutButter",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+								{
+									"Id": "AncientNutButter",
+									"Modification": "Multiply",
+									"Amount": 8.75
+								}
+							]
+                        }
+                    ],
+                    "MinutesUntilReady": 360,
+                    "InvalidCountMessage": "{{i18n: MayonnaisemachineInvalidCount_AncientNuts}}"
+                }
+            },
+            "MoveEntries": [
+                {
+                    "Id":"AncientCrops_AncientNutButter",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

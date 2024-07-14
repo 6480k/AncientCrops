@@ -13,6 +13,10 @@
         {
             "Action": "Include",
             "FromFile": "data/crops.json, data/objects.json, data/letters.json"
-        }
+        },
+        {
+			"Action": "Include",
+			"FromFile": "machines/keg.json, machines/mayonnaisemachine.json, machines/oilmaker.json"
+		},
     ]
 }
