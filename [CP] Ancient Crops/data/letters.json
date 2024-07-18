@@ -4,23 +4,87 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "AncientCrops_GuntherAncientFlower": "{{i18n:Mail_GuntherAncientFlower}}",
-                "AncientCrops_GuntherAncientTuber": "{{i18n:Mail_GuntherAncientTuber}}",
-                "AncientCrops_GuntherAncientNut": "{{i18n:Mail_GuntherAncientNut}}",
-                "AncientCrops_GuntherAncientFern": "{{i18n:Mail_GuntherAncientFern}}",
-                "AncientCrops_QiSkillChallenge": "{{i18n:Mail_QiSkillChallenge}}",
-                "AncientCrops_QiAncientCoffee": "{{i18n:Mail_QiAncientCoffee}}",
-                "AncientCrops_AncientOlive": "{{i18n:Mail_AncientOlive}}",
-                "AncientCrops_FionasPrize": "{{i18n:Mail_FionasPrize}}"
+                "QiAncientCropsIntro": "{{i18n:Mail_QiAncientCropsIntro}}",
+                "SandyAncientFlower": "{{i18n:Mail_SandyAncientFlower}}",
+                "QiAncientFern": "{{i18n:Mail_QiAncientFern}}",
+                "LeoAncientNut": "{{i18n:Mail_LeoAncientNut}}",
+                "SnailAncientOlive": "{{i18n:Mail_SnailAncientOlive}}",
+                "WizardAncientTuber": "{{i18n:Mail_WizardAncientTuber}}",
+                "QiAncientCoffee": "{{i18n:Mail_QiAncientCoffee}}"
             }
         },
         {
-            "Action": "EditData",
+		    "Action": "EditData",
             "Target": "Data/Events/Farm",
-            "Entries":{
-
-            }
-        }
+            "When": {
+                "hasVisitedLocation": "IslandSouth"
+            },
+            "Entries": {
+                "94237209/x QiAncientCropsIntro": "null"
+			}
+		},
+        {
+			"Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+                "hasCraftingRecipe": "Fairy Dust"
+            },
+            "Entries": {
+                "94237210/x SandyAncientFlower": "null"
+			}
+		},
+        {
+			"Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+                "hasVisitedLocation": "IslandShrine"
+            },
+            "Entries": {
+                "94237211/x QiAncientFern": "null"
+			}
+		},
+        {
+			"Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+                "hasSeenEvent": "6497428"
+            },
+            "Entries": {
+                "94237212/x LeoAncientNut": "null"
+			}
+		},
+        {
+			"Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+                "hasCraftingRecipe": "Ostrich Incubator"
+            },
+            "Entries": {
+                "94237213/x SnailAncientOlive": "null"
+			}
+		},
+        {
+			"Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+                "hasWalletItem": "MagicInk",
+                "hasReadLetter": "QiAncientCropsIntro, SandyAncientFlower, QiAncientFern, LeoAncientNut, SnailAncientOlive"
+            },
+            "Entries": {
+                "94237214/x WizardAncientTuber": "null"
+			}
+		},
+        {
+			"Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+                "hasWalletItem": "MagicInk",
+                "hasReadLetter": "QiAncientCropsIntro, SandyAncientFlower, QiAncientFern, LeoAncientNut, SnailAncientOlive, WizardAncientTuber"
+            },
+            "Entries": {
+                "94237215/x QiAncientCoffee": "null"
+			}
+		}
         
     ]
 }

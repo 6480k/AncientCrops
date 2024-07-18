@@ -1,9 +1,9 @@
 {
 	"Name": "Ancient Crops",
-	"Author": "TrentXV, 6480, and mauritz_g",
-	"Description": "Adds additional ancient crops for Stardew Valley 1.6 Content Patcher",
+	"Author": "TrentXV, 6480, and mauritzG",
+	"Description": "Adds additional ancient type crops to the game.",
 	"Version": "1.0.0",
-	"MinimumApiVersion": "4.0.0",
+	"MinimumApiVersion": "4.0.7",
 	"UniqueID": "TrentXV.AncientCrops",
 	"UpdateKeys": [
 	],
@@ -17,10 +17,6 @@
 		},
 		{
 			"UniqueID": "spacechase0.SpaceCore",
-			"IsRequired": false
-		},
-		{
-			"UniqueID": "mistyspring.ItemExtensions",
 			"IsRequired": false
 		}
 	]
