@@ -1,0 +1,104 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Data": "Data/Shops",
+            "TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+            "When": {
+                "hasReadLetter": "SandyAncientFlower"
+            },
+            "Entries": {
+                "AncientCrops_AncientFlowerSeeds": {
+                    "Id": "AncientCrops_AncientFlowerSeeds",
+                    "ItemId": "AncientCrops_AncientFlowerSeeds",
+                    "TradeItemId": "(O)591", //Tulip
+                    "TradeItemAmount": 50,
+					"IgnoreShopPriceModifiers": true
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Data": "Data/Shops",
+            "TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+            "When": {
+                "hasReadLetter": "QiAncientFern"
+            },
+            "Entries": {
+                "AncientCrops_AncientFernSeeds": {
+                    "Id": "AncientCrops_AncientFernSeeds",
+                    "ItemId": "AncientCrops_AncientFernSeeds",
+                    "TradeItemId": "(O)300", //Amaranth
+                    "TradeItemAmount": 50,
+					"IgnoreShopPriceModifiers": true
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Data": "Data/Shops",
+            "TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+            "When": {
+                "hasReadLetter": "LeoAncientNut"
+            },
+            "Entries": {
+                "AncientCrops_AncientNutSeeds": {
+                    "Id": "AncientCrops_AncientNutSeeds",
+                    "ItemId": "AncientCrops_AncientNutSeeds",
+                    "TradeItemId": "(O)271", //Unmilled Rice
+                    "TradeItemAmount": 99,
+					"IgnoreShopPriceModifiers": true
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Data": "Data/Shops",
+            "TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+            "When": {
+                "hasReadLetter": "SnailAncientOlive"
+            },
+            "Entries": {
+                "AncientCrops_AncientOliveSeeds": {
+                    "Id": "AncientCrops_AncientOliveSeeds",
+                    "ItemId": "AncientCrops_AncientOliveSeeds",
+                    "TradeItemId": "(O)250", //Kale
+                    "TradeItemAmount": 99,
+					"IgnoreShopPriceModifiers": true
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Data": "Data/Shops",
+            "TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+            "When": {
+                "hasReadLetter": "WizardAncientTuber"
+            },
+            "Entries": {
+                "AncientCrops_AncientTuberSeeds": {
+                    "Id": "AncientCrops_AncientTuberSeeds",
+                    "ItemId": "AncientCrops_AncientTuberSeeds",
+                    "TradeItemId": "(O)280", //Yam
+                    "TradeItemAmount": 99,
+					"IgnoreShopPriceModifiers": true
+                }
+            }
+        }
+    ]
+}

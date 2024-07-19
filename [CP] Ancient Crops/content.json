@@ -12,7 +12,7 @@
         // add subfiles
         {
             "Action": "Include",
-            "FromFile": "data/crops.json, data/objects.json, data/letters.json"
+            "FromFile": "data/crops.json, data/objects.json, data/letters.json, shop_islandtrader"
         },
         {
 			"Action": "Include",
