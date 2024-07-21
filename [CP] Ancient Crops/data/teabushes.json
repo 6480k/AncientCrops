@@ -1,0 +1,71 @@
+{
+    "Changes": [
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"Entries": {
+				"(O)AncientCrops_AncientCoffeeBean": {
+					"DisplayName": "{{i18n:AncientCoffeeBean_name}}",
+					"Description": "{{i18n:AncientCoffeeBean_description}}",
+					"AgeToProduce": 32,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring","summer", "fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 4 8 12 16 20 24 28",
+							"ItemId": "(O)AncientCrops_AncientCoffeeBean",
+							"Chance": 1.0,
+							"MinStack": 2,
+							"MaxStack": 4,
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 1, 1, 2, 2, 2, 2, 4, 4, 4],}],
+						}
+					],
+					"Texture": "TrentXV.AncientCrops/teabushes",
+					"IndoorTexture": "TrentXV.AncientCrops/teabushes_indoors",
+					"TextureSpriteRow": 0,
+				},
+                "(O)AncientCrops_AncientFernSeeds": {
+					"DisplayName": "{{i18n:AncientFern_name}}",
+					"Description": "{{i18n:AncientFernSeeds_description}}",
+					"AgeToProduce": 30,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring","summer", "fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)AncientCrops_AncientFern",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 1, 1, 2, 2, 2, 2, 4, 4, 4],}],
+						}
+					],
+					"Texture": "TrentXV.AncientCrops/teabushes",
+					"IndoorTexture": "TrentXV.AncientCrops/teabushes_indoors",
+					"TextureSpriteRow": 2,
+				},
+                "(O)AncientCrops_AncientOliveSeeds": {
+					"DisplayName": "{{i18n:AncientOlive_name}}",
+					"Description": "{{i18n:AncientOliveSeeds_description}}",
+					"AgeToProduce": 46,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring","summer", "fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 7 14 21 28",
+							"ItemId": "(O)AncientCrops_AncientOlive",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 3,
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 1, 1, 2, 2, 2, 2, 4, 4, 4],}],
+						}
+					],
+					"Texture": "TrentXV.AncientCrops/teabushes",
+					"IndoorTexture": "TrentXV.AncientCrops/teabushes_indoors",
+					"TextureSpriteRow": 4,
+				},
+			}
+	    },
+	]
+}

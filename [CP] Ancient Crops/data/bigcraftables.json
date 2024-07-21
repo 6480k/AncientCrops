@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+                "AncientCrops_AncientEnergyProcessor": {
+                    "Name": "AncientCrops_AncientEnergyProcessor",
+					"DisplayName": "{{i18n:AncientEnergyProcessor_name}}",
+					"Description": "{{i18n:AncientEnergyProcessor_description}}",
+					"Texture": "TrentXV.AncientCrops/Craftables",
+					"SpriteIndex": 0
+                }
+            }
+        }
+    ]
+}

@@ -2,8 +2,8 @@
     "Changes": [
         {
             "Action": "EditData",
-            "Data": "Data/Shops",
-            "TargetField": [
+			"Target": "Data/Shops",
+			"TargetField": [
 				"IslandTrade",
 				"Items"
 			],
@@ -22,7 +22,7 @@
         },
         {
             "Action": "EditData",
-            "Data": "Data/Shops",
+            "Target": "Data/Shops",
             "TargetField": [
 				"IslandTrade",
 				"Items"
@@ -42,7 +42,7 @@
         },
         {
             "Action": "EditData",
-            "Data": "Data/Shops",
+            "Target": "Data/Shops",
             "TargetField": [
 				"IslandTrade",
 				"Items"
@@ -62,7 +62,7 @@
         },
         {
             "Action": "EditData",
-            "Data": "Data/Shops",
+            "Target": "Data/Shops",
             "TargetField": [
 				"IslandTrade",
 				"Items"
@@ -82,7 +82,7 @@
         },
         {
             "Action": "EditData",
-            "Data": "Data/Shops",
+            "Target": "Data/Shops",
             "TargetField": [
 				"IslandTrade",
 				"Items"

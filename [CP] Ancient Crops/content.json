@@ -1,22 +1,30 @@
 {
     "Format": "2.3.0",
     "Changes": [
-        //set mail flags
         // add item + crop images
         {
             "Action": "Load",
-            "Target": "TrentXV.AncientCrops/Crops, TrentXV.AncientCrops/Objects, TrentXV.AncientCrops/Objects-Artisan",
-            "FromFile": "assets/{{TargetWithoutPath}}.png" //assets/Crops.png, assets/Objects.png, assets/Objects-artisan.png
+            "Target": "TrentXV.AncientCrops/Crops, TrentXV.AncientCrops/Objects, TrentXV.AncientCrops/teabushes_indoors, TrentXV.AncientCrops/Objects-Artisan, TrentXV.AncientCrops/Craftables",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" //assets/Crops.png, assets/Objects.png, assets/Objects-artisan.png, assets/Teabushes_indoors.png, assets/Craftables.png
         },
-
+        // add teabushes images
+        {
+            "Action": "Load",
+            "Target": "TrentXV.AncientCrops/teabushes",
+            "FromFile": "assets/teabushes_{{season}}.png"
+        },
         // add subfiles
         {
             "Action": "Include",
-            "FromFile": "data/crops.json, data/objects.json, data/letters.json, shop_islandtrader"
+            "FromFile": "data/shop_islandtrader.json, data/shop_qigemshop.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/bigcraftables.json, data/craftingrecipes.json, data/crops.json, data/objects.json, data/letters.json, data/teabushes.json"
         },
         {
 			"Action": "Include",
-			"FromFile": "machines/keg.json, machines/mayonnaisemachine.json, machines/oilmaker.json"
+			"FromFile": "machines/ancientenergyprocessor.json, machines/keg.json, machines/mayonnaisemachine.json, machines/oilmaker.json"
 		}
     ]
 }
