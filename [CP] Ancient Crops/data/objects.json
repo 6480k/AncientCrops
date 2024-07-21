@@ -45,7 +45,8 @@
                         "edible_flower_item",
                         "ancientcrops_crop_produce",
                         "modid_TrentXV.AncientCrops",
-                        "ancient_fern_item"
+                        "ancient_fern_item",
+                        "seedmaker_banned"
                     ]
                 },
                 "AncientCrops_AncientFlower": {
@@ -65,7 +66,8 @@
                         "season_fall",
                         "ancientcrops_crop_produce",
                         "modid_TrentXV.AncientCrops",
-                        "ancient_flower_item"
+                        "ancient_flower_item",
+                        "seedmaker_banned"
                     ]
                 },
                 "AncientCrops_AncientNut": {
@@ -86,7 +88,8 @@
                         "season_fall",
                         "ancientcrops_crop_produce",
                         "modid_TrentXV.AncientCrops",
-                        "ancient_nut_item"
+                        "ancient_nut_item",
+                        "seedmaker_banned"
                     ]
                 },
                 "AncientCrops_AncientOlive": {
@@ -107,7 +110,8 @@
                         "ancientcrops_crop_produce",
                         "modid_TrentXV.AncientCrops",
                         "olive_item",
-                        "ancient_olive_item"
+                        "ancient_olive_item",
+                        "seedmaker_banned"
                     ]
                 },
                 "AncientCrops_AncientTuber": {
@@ -126,7 +130,8 @@
                         "ancientcrops_crop_produce",
                         "modid_TrentXV.AncientCrops",
                         "tuber_item",
-                        "ancient_tuber_item"
+                        "ancient_tuber_item",
+                        "seedmaker_banned"
                     ]
                 }
             }           

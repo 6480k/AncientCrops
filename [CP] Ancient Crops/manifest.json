@@ -13,11 +13,11 @@
 	"Dependencies": [
 		{
 			"UniqueID": "furyx639.CustomBush",
-			"IsRequired": false
+			"IsRequired": true
 		},
 		{
-			"UniqueID": "spacechase0.SpaceCore",
-			"IsRequired": false
+			"UniqueID": "selph.ExtraMachineConfig",
+			"IsRequired": true
 		}
 	]
 }

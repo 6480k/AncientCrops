@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target":"Data/CraftingRecipes",
+			"Entries": {
+                "AncientCrops_AncientEnergyProcessor": "709 25 566 1 787 1 337 1/Home/AncientCrops_AncientEnergyProcessor/true"
+            }
+        }
+    ]
+}
