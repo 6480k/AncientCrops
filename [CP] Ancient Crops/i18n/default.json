@@ -26,11 +26,13 @@
     "AncientNutButter_name": "Ancient Nut Butter",
     "AncientNutMilk_name": "Ancient Nut Milk",
     "AncientOliveOil_name": "Ancient Olive Oil",
+    "AncientFrozenDelight_name": "Ancient Frozen Delight",
     "AncientCoffee_description": "Will I ever sleep again?",
     "AncientFernTea_description": "An extremely relaxing tea.",
     "AncientNutButter_description": "The taste is so unique that no human language has been able to describe it",
     "AncientNutMilk_description": "Doesn't taste like regular milk.",
     "AncientOliveOil_description": "This extra-virgin olive oil has more flavor than any other you have tasted.",
+    "AncientFrozenDelight_description": "A blend of textures made in heaven.",
     "OilmakerInvalidCount_AncientOlives": "Requires 4 Ancient Olives.",
     "KegInvalidCount_AncientCoffeeBeans": "Requires 5 Ancient Coffee Beans.",
     "KegInvalidCount_AncientNuts": "Requires 2 Ancient Nuts.",
@@ -44,5 +46,6 @@
     "Mail_QiAncientCoffee": "Well, well, you surprised me again. ^@, you gathered all types of ancient crops. Congratulations on that; you have shown once more that you do not give up, even on the hardest tasks. ^I’m proud of you, kid! ^^You know, this isn’t all, don’t you? Let me reward you with this special bean. I altered its genetics to enable it to soak up the ancient energy running under our feet. And speaking of running: multiple ones brewed up as a drink should give you a never-before-seen speed boost. ^Good Luck. ^- Qi [letterbg 2] %item object AncientCrops_AncientCoffeeBean 1 %% [#] Ancient Coffee Bean",
     "AncientEnergyProcessor_name": "Ancient Energy Processor",
     "AncientEnergyProcessor_description": "A machine developed by Mr. Qi. Allows you to alter the inputs using ancient energy.",
-    "AncientEnergyProcessorFuelNeededMessage": "Requires Ancient Fruit."
+    "AncientEnergyProcessorFuelNeededMessage": "Requires Ancient Fruit.",
+    "AncientEnergyProcessor_AncientFrozenDelight": "Requires Ancient Fruit and 5 Powdermelons."
 }

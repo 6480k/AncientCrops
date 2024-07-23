@@ -4,7 +4,7 @@
         // add item + crop images
         {
             "Action": "Load",
-            "Target": "TrentXV.AncientCrops/Crops, TrentXV.AncientCrops/Objects, TrentXV.AncientCrops/teabushes_indoors, TrentXV.AncientCrops/Objects-Artisan, TrentXV.AncientCrops/Craftables",
+            "Target": "TrentXV.AncientCrops/Crops, TrentXV.AncientCrops/Objects, TrentXV.AncientCrops/teabushes_indoors, TrentXV.AncientCrops/Objects-Artisan, TrentXV.AncientCrops/Craftables, TrentXV.AncientCrops/AncientFrozenDelight",
             "FromFile": "assets/{{TargetWithoutPath}}.png" //assets/Crops.png, assets/Objects.png, assets/Objects-artisan.png, assets/Teabushes_indoors.png, assets/Craftables.png
         },
         // add teabushes images

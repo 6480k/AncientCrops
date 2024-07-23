@@ -87,6 +87,31 @@
                             "MinutesUntilReady": 720
                         },
                         {
+                            "Id": "AncientCrops_AncientFrozenDelight",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)AncientCrops_AncientTuber"
+                                }
+                            ],
+                            "OutputItem": [
+                            {
+                                "ItemId": "(O)AncientCrops_AncientFrozenDelight",
+							    "MinStack": 1,
+                                "MaxStack": 1,
+                                "CopyQuality": true,
+                                "CopyPrice": true,
+                                "CustomData": {
+                                    "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
+                                    "selph.ExtraMachineConfig.RequirementId.2": "(O)Powdermelon",
+                                    "selph.ExtraMachineConfig.RequirementCount.2": "5",
+                                    "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1": 1.5,
+									"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessor_AncientFrozenDelight}}"
+                                }
+                            }
+                            ],
+                            "MinutesUntilReady": 60
+                        },
+                        {
                             "Id": "AncientCrops_AncientTuberSeeds",
                             "Triggers": [
                                 {

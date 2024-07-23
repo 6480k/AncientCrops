@@ -375,6 +375,25 @@
 						"oil_item",
                         "modid_TrentXV.AncientCrops"
 					]
+				},
+                "AncientCrops_AncientFrozenDelight": {
+					"Name": "AncientCrops_AncientFrozenDelight",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:AncientFrozenDelight_name}}",
+					"Description": "{{i18n:AncientFrozenDelight_description}}",
+					"Texture": "TrentXV.AncientCrops/AncientFrozenDelight",
+					"Price": 2200,
+					"Edibility": 50,
+					"ContextTags": [
+						"color_cyan",
+						"ancientcrops_artisangood",
+						"ancientcrops_rarity_rare",
+						"ancient_artisan_good",
+						"ancient_energy_processor_item",
+                        "modid_TrentXV.AncientCrops"
+					]
 				}
             }
         }
