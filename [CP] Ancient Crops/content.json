@@ -4,7 +4,7 @@
         // add item + crop images
         {
             "Action": "Load",
-            "Target": "TrentXV.AncientCrops/Crops, TrentXV.AncientCrops/Objects, TrentXV.AncientCrops/teabushes_indoors, TrentXV.AncientCrops/Objects-Artisan, TrentXV.AncientCrops/Craftables, TrentXV.AncientCrops/AncientFrozenDelight",
+            "Target": "TrentXV.AncientCrops/Crops, TrentXV.AncientCrops/Giantcrops, TrentXV.AncientCrops/Objects, TrentXV.AncientCrops/teabushes_indoors, TrentXV.AncientCrops/Objects-Artisan, TrentXV.AncientCrops/Craftables, TrentXV.AncientCrops/AncientFrozenDelight, TrentXV.AncientCrops/AncientEnergyStarch",
             "FromFile": "assets/{{TargetWithoutPath}}.png" //assets/Crops.png, assets/Objects.png, assets/Objects-artisan.png, assets/Teabushes_indoors.png, assets/Craftables.png
         },
         // add teabushes images
@@ -20,11 +20,15 @@
         },
         {
             "Action": "Include",
-            "FromFile": "data/bigcraftables.json, data/craftingrecipes.json, data/crops.json, data/objects.json, data/letters.json, data/teabushes.json"
+            "FromFile": "data/bigcraftables.json, data/craftingrecipes.json, data/crops.json, data/giantcrops.json, data/objects.json, data/letters.json, data/teabushes.json"
         },
         {
 			"Action": "Include",
 			"FromFile": "machines/ancientenergyprocessor.json, machines/keg.json, machines/mayonnaisemachine.json, machines/oilmaker.json"
-		}
+		},
+        {
+            "Action": "Include",
+            "FromFile": "data/quests.json"
+        }
     ]
 }

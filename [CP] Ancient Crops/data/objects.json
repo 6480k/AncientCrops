@@ -396,6 +396,29 @@
 					]
 				}
             }
+        },
+        {
+            "Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+                "AncientCrops_AncientEnergyStarch": {
+					"Name": "AncientCrops_AncientEnergyStarch",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:AncientEnergyStarch_name}}",
+					"Description": "{{i18n:AncientEnergyStarch_description}}",
+					"Texture": "TrentXV.AncientCrops/AncientEnergyStarch",
+					"Price": 0,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"ancientcrops_questitem",
+						"ancientcrops_rarity_rare",
+                        "modid_TrentXV.AncientCrops"
+					]
+				}
+            }
         }
     ]
 }

@@ -14,15 +14,15 @@
                                 }
                             ],
                             "OutputItem": [
-                            {
-                                "ItemId": "(O)AncientCrops_AncientFlowerSeeds",
-							    "MinStack": 2,
-                                "MaxStack": 3,
-                                "CustomData": {
-                                    "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
-									"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessorlMissingFuel}}"
+                                {
+                                    "ItemId": "(O)AncientCrops_AncientFlowerSeeds",
+                                    "MinStack": 2,
+                                    "MaxStack": 3,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessorlMissingFuel}}"
+                                    }
                                 }
-                            }
                             ],
                             "MinutesUntilReady": 720
                         },
@@ -34,15 +34,15 @@
                                 }
                             ],
                             "OutputItem": [
-                            {
-                                "ItemId": "(O)AncientCrops_AncientFernSeeds",
-							    "MinStack": 1,
-                                "MaxStack": 1,
-                                "CustomData": {
-                                    "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
-									"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessorlMissingFuel}}"
+                                {
+                                    "ItemId": "(O)AncientCrops_AncientFernSeeds",
+                                    "MinStack": 1,
+                                    "MaxStack": 1,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessorlMissingFuel}}"
+                                    }
                                 }
-                            }
                             ],
                             "MinutesUntilReady": 720
                         },
@@ -54,15 +54,15 @@
                                 }
                             ],
                             "OutputItem": [
-                            {
-                                "ItemId": "(O)AncientCrops_AncientNutSeeds",
-							    "MinStack": 1,
-                                "MaxStack": 1,
-                                "CustomData": {
-                                    "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
-									"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessorlMissingFuel}}"
+                                {
+                                    "ItemId": "(O)AncientCrops_AncientNutSeeds",
+                                    "MinStack": 1,
+                                    "MaxStack": 3,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessorlMissingFuel}}"
+                                    }
                                 }
-                            }
                             ],
                             "MinutesUntilReady": 720
                         },
@@ -74,80 +74,70 @@
                                 }
                             ],
                             "OutputItem": [
-                            {
-                                "ItemId": "(O)AncientCrops_AncientOliveSeeds",
-							    "MinStack": 1,
-                                "MaxStack": 1,
-                                "CustomData": {
-                                    "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
-									"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessorlMissingFuel}}"
+                                {
+                                    "ItemId": "(O)AncientCrops_AncientOliveSeeds",
+                                    "MinStack": 1,
+                                    "MaxStack": 1,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessorlMissingFuel}}"
+                                    }
                                 }
-                            }
                             ],
                             "MinutesUntilReady": 720
                         },
                         {
-                            "Id": "AncientCrops_AncientFrozenDelight",
+                            "Id": "AncientCrops_AncientTuberRules",
                             "Triggers": [
                                 {
                                     "RequiredItemId": "(O)AncientCrops_AncientTuber"
                                 }
                             ],
                             "OutputItem": [
-                            {
-                                "ItemId": "(O)AncientCrops_AncientFrozenDelight",
-							    "MinStack": 1,
-                                "MaxStack": 1,
-                                "CopyQuality": true,
-                                "CopyPrice": true,
-                                "CustomData": {
-                                    "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
-                                    "selph.ExtraMachineConfig.RequirementId.2": "(O)Powdermelon",
-                                    "selph.ExtraMachineConfig.RequirementCount.2": "5",
-                                    "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1": 1.5,
-									"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessor_AncientFrozenDelight}}"
-                                }
-                            }
-                            ],
-                            "MinutesUntilReady": 60
-                        },
-                        {
-                            "Id": "AncientCrops_AncientTuberSeeds",
-                            "Triggers": [
                                 {
-                                    "RequiredItemId": "(O)AncientCrops_AncientTuber"
+                                    "ItemId": "(O)AncientCrops_AncientFrozenDelight",
+                                    "MinStack": 1,
+                                    "MaxStack": 1,
+                                    "CopyQuality": true,
+                                    "CopyPrice": true,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Powdermelon",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": "5",
+                                        "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1": 1.5,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessor_AncientFrozenDelight}}"
+                                    },
+                                    "PriceModifiers": [
+                                        {
+                                            "Id": "AncientFrozenDelight",
+                                            "Modification": "Multiply",
+                                            "Amount": 2.25
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ItemId": "(O)AncientCrops_AncientTuberSeeds",
+                                    "MinStack": 1,
+                                    "MaxStack": 3,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessorlMissingFuel}}"
+                                    }
                                 }
                             ],
-                            "OutputItem": [
-                            {
-                                "ItemId": "(O)AncientCrops_AncientTuberSeeds",
-							    "MinStack": 1,
-                                "MaxStack": 1,
-                                "CustomData": {
-                                    "selph.ExtraMachineConfig.RequirementId.1": "(O)454",
-									"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AncientEnergyProcessorlMissingFuel}}"
-                                }
-                            }
-                            ],
-                            "MinutesUntilReady": 720
+                            "MinutesUntilReady": 720,
+                            "UseFirstValidOutput": true
                         }
                     ],
-                    "AdditionalConsumedItems": [
-						{
-							"ItemId": "(O)454",
-							"RequiredCount": 1,
-							"InvalidCountMessage": "{{i18n:AncientEnergyProcessorFuelNeededMessage}}"
-						}
-					],
                     "LoadEffects": [
-						{
-							"Sounds": [
-								{
-									"Id": "Ship"
-								}
-							]
-						}
-					],
+                        {
+                            "Sounds": [
+                                {
+                                    "Id": "Ship"
+                                }
+                            ]
+                        }
+                    ],
                     "WobbleWhileWorking": true
                 }
             }

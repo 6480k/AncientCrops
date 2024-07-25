@@ -2,11 +2,11 @@
     "Changes": [
         {
             "Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules"
-			],
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)24",
+                "OutputRules"
+            ],
             "Entries": {
                 "AncientCrops_AncientNutButter": {
                     "Id": "AncientCrops_AncientNutButter",
@@ -22,12 +22,12 @@
                             "CopyQuality": true,
                             "CopyPrice": true,
                             "PriceModifiers": [
-								{
-									"Id": "AncientNutButter",
-									"Modification": "Multiply",
-									"Amount": 8.75
-								}
-							]
+                                {
+                                    "Id": "AncientNutButter",
+                                    "Modification": "Multiply",
+                                    "Amount": 8.75
+                                }
+                            ]
                         }
                     ],
                     "MinutesUntilReady": 360,
@@ -36,7 +36,7 @@
             },
             "MoveEntries": [
                 {
-                    "Id":"AncientCrops_AncientNutButter",
+                    "Id": "AncientCrops_AncientNutButter",
                     "ToPosition": "Top"
                 }
             ]

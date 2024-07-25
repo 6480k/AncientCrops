@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries":{
+                "94237101": "ItemDelivery/{{i18n:WizardTuber_title}}/{{i18n:WizardTuber_details}}/{{i18n:WizardTuber_condition}}/Wizard AncientCrops_AncientEnergyStarch 1/-1/0/-1/false/{{i18n:WizardTuber_reaction}}"
+            }
+        }
+    ]
+}
